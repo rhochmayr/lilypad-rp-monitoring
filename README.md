@@ -153,7 +153,7 @@ Replace `name_of_bot` with the actual name of your bot.
 ## Final Steps
 
 - Review your monitors and ensure they are correctly configured.
-- Test the setup by simulating a node disconnect or PoW signal issue to verify that notifications are received.
+- Test the setup by simulating a node disconnect to verify that notifications are received.
 - Check out your status page to see the monitoring results.
   eg. `http://localhost:3001/status/lilypad-node-status`
 
