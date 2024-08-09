@@ -78,12 +78,15 @@ Replace `name_of_bot` with the actual name of your bot.
 
 1. Log into Uptime Kuma.
 2. Navigate to `Settings` -> `Notifications` -> `Setup Notification`
+
    ![image info](./images/uptime-kuma-setup-notification-03.jpg)
 3. Select `Telegram` as the notification type and enter your bot token and chat ID.
+
    ![image info](./images/uptime-kuma-setup-notification-01.jpg)
-   
+
    **Auto Get** should be able to fetch the chat ID for you.
 4. Click `Test` to verify that the notification is working. Check your Telegram account for the test notification.
+
    ![image info](./images/telegram-test-notification.jpg)
 5. Click `Save` to save the notification settings.
    ![image info](./images/uptime-kuma-setup-notification-02.jpg)
