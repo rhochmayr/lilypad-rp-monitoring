@@ -1,6 +1,6 @@
 # Node Monitoring Service with Automatic Service Restarts
 
-This guide contains a script and systemd service to monitor the online status of a Lilypad resource provider node and check for PoW signals. The service runs every 5 minutes and restarts the services `bacalhau` and `lilypad-resource-provider` if the node appears to be offline or no PoW signals have been detected for the node within the last hour. There is also a cooldown period of 1 hour after a restart for PoW signals to prevent frequent restarts.
+This guide contains a script and systemd service to monitor the online status of a Lilypad resource provider node and check for PoW signals. The service runs every 5 minutes and restarts the services `bacalhau` and `lilypad-resource-provider` if the node appears to be offline or no PoW signals have been detected for the node within the last hour. There is also a cooldown period of 1 hour after a restart for PoW signals to prevent frequent restarts. There is also a testing mode that is enabled by default to perform the checks without restarting the services.
 
 > [!CAUTION]
 > This is still being tested and should be used with caution.
