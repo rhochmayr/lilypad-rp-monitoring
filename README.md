@@ -15,7 +15,7 @@ The `kuma-uptime-telegram` directory contains instructions for setting up an Upt
 
 ![image info](./uptime-kuma-telegram/images/uptime-kuma-status-page-finish.jpg)
 
-For detailed setup instructions, please refer to the [uptime-kuma-telegram README](uptime-kuma-telegram/README.md).
+For detailed setup instructions, please refer to the [uptime-kuma-telegram README](uptime-kuma-telegram).
 
 ## Node Monitor Service
 
@@ -23,4 +23,4 @@ The `node-monitor-service` directory contains instructions on how to setup a sys
 
 ![image info](./node-monitor-service/images/node-monitor-check-ok.jpg)
 
-For detailed setup instructions, please refer to the [node-monitor-service README](node-monitor-service/README.md).
+For detailed setup instructions, please refer to the [node-monitor-service README](node-monitor-service).
