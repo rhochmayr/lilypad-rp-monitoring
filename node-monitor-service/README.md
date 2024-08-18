@@ -14,7 +14,7 @@ This guide contains a script and systemd service to monitor the online status of
   - [3. Create the Service User](#3-create-the-service-user)
   - [4. Create the Monitoring Script](#4-create-the-monitoring-script)
   - [5. Enable and Start the Timer](#5-enable-and-start-the-timer)
-  - [6. Monitor the Service](#6-monitor-the-service)
+  - [6. Check the Service Logs](#6-check-the-service-logs)
 - [Conclusion](#conclusion) 
 
 
@@ -193,9 +193,9 @@ sudo systemctl enable node-monitor.timer
 sudo systemctl start node-monitor.timer
 ```
 
-### 6. Monitor the Service
+### 6. Check the Service Logs
 
-You can monitor the service logs using the following command:
+You can check the service logs using the following command:
 
 ```bash
 journalctl -u node-monitor.service
@@ -203,5 +203,3 @@ journalctl -u node-monitor.service
 
 ## Conclusion
 With these steps, the `node-monitor.service` will be triggered every 5 minutes by the `node-monitor.timer`, ensuring that the checks are performed at the desired interval.
-
-
