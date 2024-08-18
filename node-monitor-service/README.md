@@ -95,7 +95,7 @@ sudo useradd -r -s /bin/false your_service_user
 
 ### 4. Create the Monitoring Script
 
-Ensure you have the `online-status-check.sh` script in the same directory as the service unit file. The script should contain the following content:
+Now, create the `online-status-check.sh` script in the `/usr/local/bin` directory. The script should contain the following content:
 
 ```sh
 sudo vi /usr/local/bin/online-status-check.sh
