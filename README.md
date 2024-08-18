@@ -6,10 +6,10 @@ This repository contains different solutions for monitoring the status of Lilypa
 > These solutions are independent of each other and can be used together or separately based on your requirements.
 
 ## Table of Contents
-- [Uptime Kuma Telegram](#kuma-uptime-telegram)
+- [Uptime Kuma Telegram](#uptime-kuma-telegram)
 - [Node Monitor Service](#node-monitor-service)
 
-## Kuma Uptime Telegram
+## Uptime Kuma Telegram
 
 The `kuma-uptime-telegram` directory contains instructions for setting up an Uptime-Kuma Dashboard to monitor the online status and PoW Signals of your nodes and send notifications via Telegram.
 
